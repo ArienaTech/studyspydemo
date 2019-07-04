@@ -1,0 +1,26 @@
+.cliente {
+    border-right: 4px dotted #cdcdcd ;
+    border-right-width: thin;
+}
+
+.aboutJob {
+    border: 4px dotted #cdcdcd ;
+    border-width: thin;
+    box-shadow: 2em;
+}
+
+.aboutJobTittle {
+   margin-top: -5em;
+}
+
+.MarginUp {
+    margin-top: -1em;
+}
+.BlueT {
+    color: blue;
+}
+
+.NavLeft {
+    margin-left: -1em
+}
+

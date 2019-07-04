@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/89b8ad2c-0682-4137-8844-c697a2466fd1/resourceGroups/studyspy/providers/Microsoft.Web/sites/studyspy",
+    "appService.deploySubpath": ""
+}
