@@ -48,8 +48,9 @@
     }
 }
 
-
-
 .home {
     margin-top: -3em;
 }
+
+#favheart {background-color:rgba(190, 190, 190, 1)}
+#favheart:hover {background-color:rgba(251, 66, 100, 1)}

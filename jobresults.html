@@ -384,6 +384,7 @@
               Jobs
             </a>
           </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="coursesearch.html" aria-haspopup="true" aria-expanded="false">
               Courses 
@@ -415,9 +416,6 @@
               </a>
             </li>
         </ul>   
-       
-
-        
 
         <!-- Button -->
         <!--
@@ -510,8 +508,10 @@
   </nav>
   
 
+  
+
     
-    <section class="pt-8 pt-md-11 bg-gradient-light" style="margin-left: -10em; margin-top: -7em">
+    <section class="pt-8 pt-md-11 bg-gradient-light" style="margin-left: -10em; margin-top: -7em"></section>
         <div class="container">
 
 
@@ -519,7 +519,7 @@
 
           <!-- NAVBAR
     ================================================== -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white " >    
+<nav class="navbar navbar-expand-lg navbar-light bg-white " >    
 
         <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -538,10 +538,34 @@
           <ul class="navbar-nav ml-auto">
         
 
-            <li class="nav-item">
-              <a class="nav-link " id="navbarLandings" href="#" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarAccount" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
                   <button type="button" class="btn btn-sm btn-outline-primary">All regions</button>
               </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarAccount">
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link dropdown-toggle" data-toggle="dropdown" href="#">
+                    Sign In
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./signin-cover.html">
+                      Side Cover
+                    </a>
+                    <a class="dropdown-item" href="./signin-illustration.html">
+                      Illustration
+                    </a>
+                    <a class="dropdown-item" href="./signin.html">
+                      Basic
+                    </a>
+                    <a class="dropdown-item" data-toggle="modal" href="#modalSigninHorizontal">
+                      Modal Horizontal
+                    </a>
+                    <a class="dropdown-item" data-toggle="modal" href="#modalSigninVertical">
+                      Modal Vertical
+                    </a>
+                  </div>
+                </li>
+                </ul>
             </li>
             <li class="nav-item NavLeft">
               <a class="nav-link" id="navbarPages"  href="#" aria-haspopup="true" aria-expanded="false">
@@ -580,14 +604,24 @@
 
     
     <section class="pt-8 pt-md-11 bg-gradient-light">
+
+      
         <div class="container">
+
+          
               
           <div class="row justify-content-center">
+            
             <div class="col-12 col-md-10 col-lg-8 text-center">
+
+              
             </div>
           </div> <!-- / .row -->
           <div class="row" style="margin-top: -5em">
+            
             <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up">
+
+              
               
               <!-- Card -->
               <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
@@ -608,7 +642,7 @@
 
                     <!-- Badge -->
                      <div class="position-relative text-right mt-n8 mr-n4 mb-3"> 
-                       <span class="badge badge-pill badge-success" style="background-color: rgba(190, 190, 190, 1)">
+                       <span id="favheart" class="badge badge-pill badge-success">
                          <span  class="h6 text-uppercase"><i class="fa fa-heart"></i></span>
                        </span>
                      </div>
@@ -630,7 +664,7 @@
                   </a>
 
                                  <!-- Image -->
-                
+      
   
                 </div>
   
@@ -659,7 +693,7 @@
 
                  <!-- Badge -->
                   <div class="position-relative text-right mt-n8 mr-n4 mb-3"> 
-                    <span class="badge badge-pill badge-success" style="background-color: rgba(190, 190, 190, 1)">
+                    <span id="favheart" class="badge badge-pill badge-success">
                       <span  class="h6 text-uppercase"><i class="fa fa-heart"></i></span>
                     </span>
                   </div>
@@ -706,7 +740,7 @@
   
                  <!-- Badge -->
                  <div class="position-relative text-right mt-n8 mr-n4 mb-3"> 
-                    <span class="badge badge-pill badge-success" style="background-color: rgba(190, 190, 190, 1)">
+                    <span id="favheart" class="badge badge-pill badge-success">
                       <span  class="h6 text-uppercase"><i class="fa fa-heart"></i></span>
                     </span>
                   </div>
