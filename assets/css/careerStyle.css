@@ -24,3 +24,32 @@
     margin-left: -1em
 }
 
+.homeImage {
+  margin-top: -8em;
+}
+
+@media only screen and (min-width: 392px) {
+    img.homeImage {
+    margin-top: 5em;
+    }
+}
+
+/*Maybe Mobile*/
+@media only screen and (min-width: 370px) {
+    img.homeImage {
+     margin-top: 5em;
+    }
+}
+
+/*Smallest when Browser collasp*/
+@media only screen and (min-width: 392px) {
+    img.homeImage { 
+     margin-top: 1em;
+    }
+}
+
+
+
+.home {
+    margin-top: -3em;
+}
