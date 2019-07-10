@@ -1,0 +1,49 @@
+.cliente {
+    border-right: 4px dotted #cdcdcd ;
+    border-right-width: thin;
+}
+
+.aboutJob {
+    border: 4px dotted #cdcdcd ;
+    border-width: thin;
+    box-shadow: 2em;
+}
+
+.aboutJobTittle {
+   margin-top: -5em;
+}
+
+.MarginUp {
+    margin-top: -1em;
+}
+.BlueT {
+    color: blue;
+}
+
+.NavLeft {
+    margin-left: -1em
+}
+
+.home {
+    margin-top: -3em;
+}
+
+#favheart {background-color:rgba(190, 190, 190, 1)}
+#favheart:hover {background-color:rgba(251, 66, 100, 1)}
+
+nav.navbar .navContainer {
+    margin-left: 16em;
+}
+
+.img-course {
+ width:5em; 
+ height: 5em; 
+ border-radius: 1em; 
+ margin-top: -1.5em; 
+ border: 7px solid white;
+ margin-left: -0.5em;
+}
+
+.topSpace {
+  margin-top: 3em;
+}

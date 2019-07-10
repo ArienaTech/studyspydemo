@@ -254,7 +254,7 @@
 
         <li class="nav-item NavLeft dropdown" name="navTwo">
           <a class="nav-link" id="navbarPages"  href="#" aria-haspopup="true" aria-expanded="false">
-              <button type="button" class="btn btn-sm btn-outline-primary">Job type</button>
+              <button type="button" class="btn btn-sm btn-outline-primary">Level</button>
           </a>
           <div class="dropdown-menu dropdown-menu-sm" aria-labelledby="navbarPages">
             <div class="row no-gutters">
@@ -262,16 +262,16 @@
 
                 <!-- List -->
                 <a class="dropdown-item" href="./careers.html">
-                  Seasonal 
+                  1
                 </a>
                 <a class="dropdown-item" href="./career-single.html">
-                  Casual
+                  2
                 </a>
                 <a class="dropdown-item" href="./careers.html">
-                  Full-time
+                  3
                 </a>
                 <a class="dropdown-item mb-5 mb-lg-0" href="./career-single.html">
-                  Part-time
+                  4
                 </a>          
               </div>
             </div>
@@ -280,7 +280,7 @@
 
         <li class="nav-item NavLeft dropdown" name="navThree">
           <a class="nav-link" id="navbarPages"  href="#" aria-haspopup="true" aria-expanded="false">
-              <button type="button" class="btn btn-sm btn-outline-primary">Pay rate</button>
+              <button type="button" class="btn btn-sm btn-outline-primary">Price range</button>
           </a>
           <div class="dropdown-menu dropdown-menu-sm" aria-labelledby="navbarPages">
             <div class="row no-gutters">
@@ -320,7 +320,7 @@
 
         <li class="nav-item NavLeft dropdown" name="navFour">
             <a class="nav-link" id="navbarPages"  href="#" aria-haspopup="true" aria-expanded="false">
-                <button type="button" class="btn btn-sm btn-outline-primary">All industies</button>
+                <button type="button" class="btn btn-sm btn-outline-primary">Duration</button>
             </a>
             <div class="dropdown-menu dropdown-menu-sm" aria-labelledby="navbarPages">
               <div class="row no-gutters">
@@ -345,7 +345,7 @@
 
           <li class="nav-item NavLeft dropdown" name="navFive">
               <a class="nav-link" id="navbarPages"  href="#" aria-haspopup="true" aria-expanded="false">
-                  <button type="button" class="btn btn-sm btn-outline-primary">Qualification required</button>
+                  <button type="button" class="btn btn-sm btn-outline-primary">Providers</button>
               </a>
               <div class="dropdown-menu dropdown-menu-sm" aria-labelledby="navbarPages">
                 <div class="row no-gutters">
@@ -371,13 +371,42 @@
                 </div>
               </div> <!-- / .row -->
             </li>
+
+            <li class="nav-item NavLeft dropdown" name="navSix">
+                <a class="nav-link" id="navbarPages"  href="#" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-sm btn-outline-primary">Subjects</button>
+                </a>
+                <div class="dropdown-menu dropdown-menu-sm" aria-labelledby="navbarPages">
+                  <div class="row no-gutters">
+                    <div class="col-6 col-lg-4">
+      
+                      <!-- List -->
+                      <a class="dropdown-item" href="./careers.html">
+                        Certificates  
+                      </a>
+                      <a class="dropdown-item" href="./career-single.html">
+                        Diplomas
+                      </a>
+                      <a class="dropdown-item" href="./careers.html">
+                        Bachelor’s degrees
+                      </a>
+                      <a class="dropdown-item" href="./careers.html">
+                        Master’s degrees
+                      </a>
+                      <a class="dropdown-item mb-5 mb-lg-0" href="./career-single.html">
+                        Doctoral degrees
+                      </a>          
+                    </div>
+                  </div>
+                </div> <!-- / .row -->
+              </li>
     </div>
 </nav>
 
    <!-- CONTENTS
     ================================================== -->
-    <section class="pt-8 pt-md-11 bg-gradient-light">    
-        <div class="container">        
+    <section class="pt-8 pt-md-11 bg-gradient-light" style="width: 90%; margin-left: 4em">    
+        <!--<div class="container">-->
           <div class="row justify-content-center">
             
             <div class="col-12 col-md-10 col-lg-8 text-center">
@@ -387,15 +416,11 @@
           </div> <!-- / .row -->
           <div class="row" style="margin-top: -5em">
             
-            <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up">
-
+            <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up">          
               
-              
-              <!-- Card -->
+            <!-- Card -->
               <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg" name="cardOne">
-                
-                  <img src="assets/img/photos/photo-4.jpg" alt="..." class="card-img-top">
-  
+                <br>
                 <!-- Shape -->
                 <div class="position-relative">
                   <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
@@ -404,49 +429,62 @@
                     </svg>
                   </div>
                 </div>
-  
+
                 <!-- Body -->
                 <div class="card-body position-relative">
 
                     <!-- Badge -->
-                     <div class="position-relative text-right mt-n8 mr-n4 mb-3"> 
-                       <span id="favheart" class="badge badge-pill badge-success" name="heartOne">
+                     <div class="position-relative text-right mt-n8 mr-n4 mb-3" name="heartOne"> 
+                       <span id="favheart" class="badge badge-pill badge-success">
                          <span  class="h6 text-uppercase"><i class="fa fa-heart"></i></span>
                        </span>
                      </div>
-   
-                     <!-- Heading -->
-                     <h3>
-                       Test Analyst
-                     </h3>
+                     
+                     <div class="d-flex">
+                        <div>
+                          <img src="assets/img/photos/uoaLogo.png" alt="..." class="img-course">
+                        </div><h3>Bachelor of Commerce</h3>
+                      </div>
+
+                     <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                        <div class="col-6">Duration</div>
+                        <div class="col-6">3 year</div>
+                      </div>
+                      <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                          <div class="col-6">Domestic Tuition</div>
+                          <div class="col-6">$6,462 per year</div>
+                        </div>
+                        <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                            <div class="col-6">International Tuition</div>
+                            <div class="col-6">$27,980 per year</div>
+                          </div>
+                          <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                              <div class="col-6">NZQA Level</div>
+                              <div class="col-6">7</div>
+                            </div>
                   
   
                   <!-- Text -->
-                  <p class="text-muted">
-                      Test analysts design and carry out testing processes for new and upgraded computer software and systems. 
+                  <p class="text-muted" style="font-size: 16px">
+                      The Bachelor of Business is informed by the latest business research and  employer feedback, and your final year includes invaluable workplace experience, an applied project or a new business venture. 
                   </p>
   
                   <!-- Link -->
-                  <a href="jobprofile.html" class="font-weight-bold text-decoration-none" style="color:rgba(251, 66, 100, 1)">
+                  <a href="jobprofile.html" class="font-weight-bold text-decoration-none" style="color:rgba(251, 66, 100, 1)" name="infoOne">
                     More info <i class="fe fe-arrow-right ml-3"></i>
                   </a>
 
-                                 <!-- Image -->
-      
-  
+                <!-- Image -->
+
                 </div>
   
-              </div>
-  
+              </div> 
             </div>
             <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-              
-              <!-- Card -->
+
+             <!-- Card -->
               <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg" name="cardTwo">
-                
-                <!-- Image -->
-                <img src="assets/img/photos/photo-5.jpg" alt="..." class="card-img-top">
-  
+                <br>
                 <!-- Shape -->
                 <div class="position-relative">
                   <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
@@ -455,84 +493,121 @@
                     </svg>
                   </div>
                 </div>
-  
+
                 <!-- Body -->
                 <div class="card-body position-relative">
 
-                 <!-- Badge -->
-                  <div class="position-relative text-right mt-n8 mr-n4 mb-3"> 
-                    <span id="favheart" class="badge badge-pill badge-success" name="heartTwo">
-                      <span  class="h6 text-uppercase"><i class="fa fa-heart"></i></span>
-                    </span>
-                  </div>
+                    <!-- Badge -->
+                     <div class="position-relative text-right mt-n8 mr-n4 mb-3" name="heartTwo"> 
+                       <span id="favheart" class="badge badge-pill badge-success">
+                         <span  class="h6 text-uppercase"><i class="fa fa-heart"></i></span>
+                       </span>
+                     </div>
+                     
+                     <div class="d-flex">
+                        <div>
+                          <img src="assets/img/photos/autLogo.jpg" alt="..." class="img-course">
+                        </div><h3>Bachelor of Commerce</h3>
+                      </div>
 
-                  <!-- Heading -->
-                  <h3>
-                    Software Developer 
-                  </h3>
-  
-                  <!-- Text -->
-                  <p class="text-muted">
-                    Software developers develop and maintain computer software, websites and software applications (apps).
-                  </p>
-  
-                  <!-- Link -->
-                  <a href="#!" class="font-weight-bold text-decoration-none" style="color:rgba(251, 66, 100, 1)">
-                      More info <i class="fe fe-arrow-right ml-3"></i>
-                    </a>
-  
-                </div>
-  
-              </div>
-  
-            </div>
-            <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-              
-              <!-- Card -->
-              <div class="card shadow-light-lg lift lift-lg" name="cardThree">
-                
-                <!-- Image -->
-                <img src="assets/img/photos/photo-6.jpg" alt="..." class="card-img-top">
-  
-                <!-- Shape -->
-                <div class="position-relative">
-                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
-                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-                    </svg>
-                  </div>
-                </div>
-  
-                <!-- Body -->
-                <div class="card-body position-relative">
-  
-                 <!-- Badge -->
-                 <div class="position-relative text-right mt-n8 mr-n4 mb-3"> 
-                    <span id="favheart" class="badge badge-pill badge-success" name="heartThree">
-                      <span  class="h6 text-uppercase"><i class="fa fa-heart"></i></span>
-                    </span>
-                  </div>
+                     <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                        <div class="col-6">Duration</div>
+                        <div class="col-6">3 year</div>
+                      </div>
+                      <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                          <div class="col-6">Domestic Tuition</div>
+                          <div class="col-6">$6,462 per year</div>
+                        </div>
+                        <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                            <div class="col-6">International Tuition</div>
+                            <div class="col-6">$27,980 per year</div>
+                          </div>
+                          <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                              <div class="col-6">NZQA Level</div>
+                              <div class="col-6">7</div>
+                            </div>
                   
-                  <!-- Heading -->
-                  <h3>
-                    Business Analyst
-                  </h3>
   
                   <!-- Text -->
-                  <p class="text-muted">
-                      Business analysts design or recommend solutions to help organisations meet their goals.
+                  <p class="text-muted" style="font-size: 16px">
+                      The Bachelor of Business is informed by the latest business research and  employer feedback, and your final year includes invaluable workplace experience, an applied project or a new business venture. 
                   </p>
   
                   <!-- Link -->
-                  <a href="#!" class="font-weight-bold text-decoration-none" style="color:rgba(251, 66, 100, 1)">
+                  <a href="jobprofile.html" class="font-weight-bold text-decoration-none" style="color:rgba(251, 66, 100, 1)" name="infoTwo">
+                    More info <i class="fe fe-arrow-right ml-3"></i>
+                  </a>
+
+                <!-- Image -->
+
+                </div>
+              </div> 
+            </div>
+            <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+              <!-- Card -->
+              <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg" name="cardThree">
+                  <br>
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                      </svg>
+                    </div>
+                  </div>
+  
+                  <!-- Body -->
+                  <div class="card-body position-relative">
+  
+                      <!-- Badge -->
+                       <div class="position-relative text-right mt-n8 mr-n4 mb-3" name="heartThree"> 
+                         <span id="favheart" class="badge badge-pill badge-success">
+                           <span  class="h6 text-uppercase"><i class="fa fa-heart"></i></span>
+                         </span>
+                       </div>
+                       
+                       <div class="d-flex">
+                          <div>
+                            <img src="assets/img/photos/masseyLogo.jpg" alt="..." class="img-course">
+                          </div><h3>Bachelor of Commerce</h3>
+                        </div>
+  
+                       <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                          <div class="col-6">Duration</div>
+                          <div class="col-6">3 year</div>
+                        </div>
+                        <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                            <div class="col-6">Domestic Tuition</div>
+                            <div class="col-6">$6,462 per year</div>
+                          </div>
+                          <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                              <div class="col-6">International Tuition</div>
+                              <div class="col-6">$27,980 per year</div>
+                            </div>
+                            <div class="row border-bottom border-top" style="color:dimgray; font-size: 16px">
+                                <div class="col-6">NZQA Level</div>
+                                <div class="col-6">7</div>
+                              </div>
+                    
+    
+                    <!-- Text -->
+                    <p class="text-muted" style="font-size: 16px">
+                        The Bachelor of Business is informed by the latest business research and  employer feedback, and your final year includes invaluable workplace experience, an applied project or a new business venture. 
+                    </p>
+    
+                    <!-- Link -->
+                    <a href="jobprofile.html" class="font-weight-bold text-decoration-none" style="color:rgba(251, 66, 100, 1)" name="infoThree">
                       More info <i class="fe fe-arrow-right ml-3"></i>
                     </a>
   
-                </div>
+                  <!-- Image -->
   
+                  </div>
+    
+                </div> 
               </div>
-  
-            </div>
+              <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
           </div> <!-- / .row -->
         </div> <!-- / .container -->
       </section>
